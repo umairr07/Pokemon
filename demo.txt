@@ -1,0 +1,91 @@
+<div class="card-inner" style="position: relative">
+    <br>
+        <div class="card-front">
+            <div class="id" style="text-align: center;
+            margin-top: 5px;
+            margin-left: 25px;
+            padding: 5px;
+            width: 80%;
+            height: 30px;
+            align-self: center;
+            background-color: white;
+            border-radius">
+            ${details.id}
+        </div>
+        <center>
+            <img src="${details.sprites.front_default} " alt="" />
+        </center>
+        <div
+            class="name"
+            style="text-align: center; font-size: 25px; text-transform: uppercase; font-weight: bold"
+            >
+            ${details.name}
+        </div>
+        <h1
+          class="type"
+          style="
+            text-align: center;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 10px;
+            
+          "
+        >
+          ${details.types[0].type.name}
+        </h1>
+
+
+      </div>
+
+        <div class="card-back">
+            <img src="${details.sprites.back_default}" />
+            <div class="abilities">${details.abilities[0].ability.name}</div>
+            <div class="name">${details.name}</div>
+        </div>
+    </div><div class="card-inner" style="position: relative">
+    <br>
+        <div class="card-front">
+            <div class="id" style="text-align: center;
+            margin-top: 5px;
+            margin-left: 25px;
+            padding: 5px;
+            width: 80%;
+            height: 30px;
+            align-self: center;
+            background-color: white;
+            border-radius">
+            ${details.id}
+        </div>
+        <center>
+            <img src="${details.sprites.front_default} " alt="" />
+        </center>
+        <div
+            class="name"
+            style="text-align: center; font-size: 25px; text-transform: uppercase; font-weight: bold"
+            >
+            ${details.name}
+        </div>
+        <h1
+          class="type"
+          style="
+            text-align: center;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 10px;
+            
+          "
+        >
+          ${details.types[0].type.name}
+        </h1>
+
+
+      </div>
+
+        <div class="card-back">
+            <img src="${details.sprites.back_default}" />
+            <div class="abilities">${details.abilities[0].ability.name}</div>
+            <div class="name">${details.name}</div>
+        </div>
+    </div>

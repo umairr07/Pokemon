@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeekaaMonn</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="h1" class="text-center">Pokemon</h1>
+      <!-- <img src="png-clipart-pokemon-pokemon.png" alt="" id="pokHead" /> -->
+      <center class="headings">
+        <select name="type" id="type">
+          <option>Types</option>
+          <option value="grass" id="select">Grass</option>
+          <option value="fire" id="select">Fire</option>
+          <option value="water" id="select">Water</option>
+          <option value="bug" id="select">Bug</option>
+          <option value="normal" id="select">Normal</option>
+          <option value="poison" id="select">Poison</option>
+          <option value="electric" id="select">Electric</option>
+          <option value="ground" id="select">Ground</option>
+          <option value="fairy" id="select">Fairy</option>
+          <option value="fighting" id="select">Fighting</option>
+          <option value="psychic" id="select">Psychic</option>
+          <option value="rock" id="select">Rock</option>
+          <option value="ghost" id="select">Ghost</option>
+          <option value="ice" id="select">Ice</option>
+          <option value="dragon" id="select">Dragon</option>
+        </select>
+        <button id="filter">Filter By Type</button>
+        <a href="index.html"><button id="reset">Reset</button></a>
+        <input type="text" placeholder="Enter Pokemon Name" id="search" />
+      </center>
+    </header>
+    <div id="pokemonContainer"></div>
+
+    <!-- <div class="card-inner" style="position: relative">
+      <div class="card-front">
+        <div
+          class="id"
+          style="
+            text-align: center;
+            background-color: white;
+            margin-top: 5px;
+            padding: 5px;
+            width: 100%;
+            height: 10px;
+          "
+        >
+          ${details.id}
+        </div>
+        <center>
+          <img src="`${details.sprites.front_default}`" alt="" />
+        </center>
+        <div
+          class="name"
+          style="
+            text-align: center;
+            font-size: 25px;
+            text-transform: uppercase;
+            font-weight: bold;
+          "
+        >
+          ${details.name}
+        </div>
+        <h4
+          class="type"
+          style="
+            text-align: center;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-top: 10px;
+            background-color: #fff;
+          "
+        >
+          ${details.types[0].type.name}
+        </h4>
+      </div>
+    </div>
+
+    <div class="card-back">
+      <img src="${details.sprites.back_default}" alt="" />
+      <div class="abilities">${details.abilities[0].ability.name}</div>
+      <div class="name">${details.name}</div>
+    </div> -->
+
+    <!-- <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <div class="id">${details.id}</div>
+          <img src="${details.sprites.front_default}" alt="" />
+        </div>
+        <div>${details.name}</div>
+
+        <div class="flip-card-back">
+          <img src="${details.sprites.back_default}" />
+          <div class="abilities">${details.abilities[0].ability.name}</div>
+          <div class="name">${details.name}</div>
+        </div>
+      </div>
+    </div> -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
